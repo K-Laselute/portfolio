@@ -2,18 +2,21 @@
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
     font-family: 'Roboto Condensed';
     font-size: 1.5rem;
     color: white;
-    background: url(../images/city.jpg);
-    background-size: contain;
+    background: url(../images/cityblur.jpg);
+    background-size: cover;
 }
 
 .main-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -22,26 +25,49 @@ body {
 
 /* header */
 
+.vl-t {
+    border-left: 2px solid white;
+    height: 150px;
+    align-self: center;
+}
+
+.vl-b {
+    border-left: 2px solid white;
+    height: 150px;
+    align-self: center;
+}
+
 header {
     display: flex;
     flex-direction: column;
     align-items: center;    
 }
 
-.name {
-    padding: 0 65px;
+.title {
+    padding: 0 65px 20px 65px;
     border-top: solid 2px white;
     border-bottom: solid 2px white;
     text-align: center;
     letter-spacing: 7px;
 }
 
+#name {
+    font-family: 'Press Start 2P', cursive;
+}
+
 nav ul {
+    margin-left: 31px;
     display: flex;
+    justify-content: center;
+    border: solid 1px white;
+}
+
+nav ul li {
+    border: 1px solid white;
+    padding: 10px 25px;
 }
 
 nav ul li a {
-    margin-right: 40px;
     color: white;
 }
 
@@ -60,4 +86,12 @@ nav ul li a {
 
 .skill-icon {
     width: 250px;
+}
+
+/* About */
+
+#about {
+    width: 60%;
+    height: 70%;
+    background-color: lightgrey;
 }
