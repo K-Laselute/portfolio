@@ -77,11 +77,20 @@ nav ul li a {
     letter-spacing: 3px;
 }
 
+/* Main div */
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
 /* work */
 
 #work {
-    width: 85%;
-    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
     background-color: aqua;
 }
 
@@ -89,8 +98,10 @@ nav ul li a {
 
 .tech-skills {
     display: flex;
-    flex-wrap: wrap;
-    background: #727272;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: aqua;
 }
 
 .tech-skills div {
@@ -105,9 +116,21 @@ nav ul li a {
 /* About */
 
 #about {
-    width: 60%;
-    height: 70%;
-    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: aqua;
+}
+
+/* contact */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: aqua;
 }
 
 /* footer */
