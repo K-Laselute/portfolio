@@ -18,118 +18,129 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <div id="wrapper">
 
-        <!-- Header -->
-        <div class="main-container">
-            <div class="vl-t"></div>
-            <header id="header">
-                <div class="">
-                    <span class=""></span>
-                </div>
-                <div class="">
-                    <div class="title">
-                        <h1 id="name">Kyle Laselute</h1>
-                        <p>A Front-End Developer / Designer</p>
+            <!-- Header -->
+            <div class="main-container">
+                <header id="header">
+                    <div class="vl-t">
                     </div>
-                </div>
-                <div class="vl-b"></div>
-                <nav>
-                    <ul>
-                        <li><a href="#work">Work</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                    <div class="">
+                        <span class=""></span>
+                    </div>
+                    <div class="">
+                        <div class="title">
+                            <h1 id="name">Kyle Laselute</h1>
+                            <p>A Front-End Developer / Designer</p>
+                        </div>
+                    </div>
+                    <div class="vl-b">
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Work</a></li>
+                            <li><a href="#">Skills</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+            
+            <!-- Main -->
+            <div id="main">
+            
+                <!-- Intro -->
+                <article id="work">
+                    <h2 class="">Work</h2>
+                    <span class=""><img src="" alt="" /></span>
+                    <div class="project-block">
+                        <span><img src="" alt=""></span>
+                        <p>I created a simple javascript quiz app with questions from the Marvel "comic" universe. I used Bootstrap
+                            4 for simple styling and used vanilla JS. I created this project to get a better understanding of DOM
+                            manipulation and object building. You can test out the app or view the source code.</p>
+                    </div>
+                    <div>
+                        <button href="https://github.com/K-Laselute/marveljsquiz">Source Code</button>
+                        <button href="">Test Knowledge</button>
+                    </div>
+                </article>
+            
+                <!-- Work -->
+                <article id="skills">
+                    <h2 class="">Skills</h2>
+                    <span class=""><img src="" alt="" /></span>
+                    <h3>Techie Skills</h3>
+                    <div class="tech-skills">
+                        <div>
+                            <img class="skill-icon" src="assets/images/html5pix.png" alt="HTML5">
+                            <img class="skill-icon" src="assets/images/css3pix.png" alt="css3">
+                            <img class="skill-icon" src="assets/images/jspix.png" alt="Javascript">
+                        </div>
+                        <div>
+                            <img class="skill-icon" src="assets/images/jquerypix.png" alt="jquery">
+                            <img class="skill-icon" src="assets/images/bootstrappix.png" alt="Bootstrap">
+                            <img class="skill-icon" src="assets/images/gitpix.png" alt="Git">
+                        </div>
+                        <div>
+                            <img class="skill-icon" src="assets/images/githubpix.png" alt="">
+                        </div>
+                    </div>
+                    <h3>Soft skills</h3>
+                    <div>
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                    </div>
+                </article>
+            
+                <!-- About -->
+                <article id="about">
+                    <h2 class="">About</h2>
+                    <span class=""><img src="" alt="" /></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend
+                        sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam.
+                        Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum
+                        primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+                </article>
+            
+                <!-- Contact -->
+                <article id="contact">
+                    <h2 class="major">Let's Talk.</h2>
+                    <p>I'll buy the coffee.</p>
+                    <form method="post" action="#">
+                        <div class="fields">
+                            <div class="field half">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" />
+                            </div>
+                            <div class="field half">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email" />
+                            </div>
+                            <div class="field">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <ul class="actions">
+                            <li><input type="submit" value="Send Message" class="primary" /></li>
+                            <li><input type="reset" value="Reset" /></li>
+                        </ul>
+                    </form>
+                    <ul class="">
+                        <li><a href="#" class=""><span class="">Twitter</span></a></li>
+                        <li><a href="#" class=""><span class="">GitHub</span></a></li>
                     </ul>
-                </nav>
-            </header>
+                </article>
+            </div>
+            <!-- Footer -->
+            <footer id="footer">
+                <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+            </footer>
+
         </div>
-
-        <!-- Main -->
-        <div id="main">
-
-        <!-- Intro -->
-            <article id="work">
-                <h2 class="">Work</h2>
-                <span class=""><img src="" alt="" /></span>
-                <div class="project-block">
-                    <span><img src="" alt=""></span>
-                    <p>I created a simple javascript quiz app with questions from the Marvel "comic" universe. I used Bootstrap 4 for simple styling and used vanilla JS. I created this project to get a better understanding of DOM manipulation and object building. You can test out the app or view the source code.</p>
-                </div>
-                <div>
-                    <button href="https://github.com/K-Laselute/marveljsquiz">Source Code</button>
-                    <button href="">Test Knowledge</button>
-                </div>
-            </article>
-
-        <!-- Work -->
-            <article id="skills">
-                <h2 class="">Skills</h2>
-                <span class=""><img src="" alt="" /></span>
-                <h3>Techie Skills</h3>
-                <div class="tech-skills">
-                    <div>
-                        <img class="skill-icon" src="assets/images/html5pix.png" alt="HTML5">
-                        <img class="skill-icon" src="assets/images/css3pix.png" alt="css3">
-                        <img class="skill-icon" src="assets/images/jspix.png" alt="Javascript">
-                    </div>
-                    <div>
-                        <img class="skill-icon" src="assets/images/jquerypix.png" alt="jquery">
-                        <img class="skill-icon" src="assets/images/bootstrappix.png" alt="Bootstrap">
-                        <img class="skill-icon" src="assets/images/gitpix.png" alt="Git">
-                    </div>
-                    <div>
-                        <img class="skill-icon" src="assets/images/githubpix.png" alt="">
-                    </div>
-                </div>
-                <h3>Soft skills</h3>
-                <div>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>
-            </article>
-
-        <!-- About -->
-            <article id="about">
-                <h2 class="">About</h2>
-                <span class=""><img src="" alt="" /></span>
-                <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
-            </article>
-
-        <!-- Contact -->
-            <article id="contact">
-                <h2 class="major">Let's Talk.</h2>
-                <p>I'll buy the coffee.</p>
-                <form method="post" action="#">
-                    <div class="fields">
-                        <div class="field half">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="name" />
-                        </div>
-                        <div class="field half">
-                            <label for="email">Email</label>
-                            <input type="text" name="email" id="email" />
-                        </div>
-                        <div class="field">
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" rows="4"></textarea>
-                        </div>
-                    </div>
-                    <ul class="actions">
-                        <li><input type="submit" value="Send Message" class="primary" /></li>
-                        <li><input type="reset" value="Reset" /></li>
-                    </ul>
-                </form>
-                <ul class="">
-                    <li><a href="#" class=""><span class="">Twitter</span></a></li>
-                    <li><a href="#" class=""><span class="">GitHub</span></a></li>
-                </ul>
-            </article>
-        </div>
-        <!-- Footer -->
-        <footer id="footer">
-            <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-        </footer>
+        
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="assets/javascript/app.js" async defer></script>
     </body>
