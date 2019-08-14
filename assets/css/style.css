@@ -13,7 +13,7 @@ body {
 }
 
 #wrapper {
-    background: url(../images/cityblur.jpg);
+    background: url(../images/mountains.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -25,6 +25,13 @@ body {
 .main-container {
     align-self: center;
 }
+
+/* active */
+
+.blur {
+    filter: blur(5px);
+}
+
 
 /* header */
 
@@ -47,7 +54,7 @@ header {
 }
 
 .title {
-    padding-bottom: 25px;
+    padding: 20px 20px;
     border-top: solid 2px white;
     border-bottom: solid 2px white;
     text-align: center;
@@ -87,21 +94,19 @@ nav ul li a {
 /* work */
 
 #work {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    background-color: aqua;
+    padding: 4.5rem 2.5rem 1.5rem 2.5rem;
+    width: 60rem;
+    max-width: 100%;
+    background-color: rgba(27, 31, 34, 0.85);
 }
 
 /* skills */
 
 .tech-skills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    background-color: aqua;
+    padding: 4.5rem 2.5rem 1.5rem 2.5rem;
+    width: 60rem;
+    max-width: 100%;
+    background-color: rgba(27, 31, 34, 0.85);
 }
 
 .tech-skills div {
@@ -110,27 +115,26 @@ nav ul li a {
 }
 
 .skill-icon {
-    width: 250px;
+    width: 150px;
+    padding: 20px;
 }
 
 /* About */
 
 #about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    background-color: aqua;
+    padding: 4.5rem 2.5rem 1.5rem 2.5rem;
+    width: 60rem;
+    max-width: 100%;
+    background-color: rgba(27, 31, 34, 0.85);
 }
 
 /* contact */
 
 #contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    background-color: aqua;
+    padding: 4.5rem 2.5rem 1.5rem 2.5rem;
+    width: 60rem;
+    max-width: 100%;
+    background-color: rgba(27, 31, 34, 0.85);
 }
 
 /* footer */

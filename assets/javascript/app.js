@@ -1,3 +1,4 @@
+let $wrapper = $('#wrapper');
 let $mainContainer = $('.main-container');
 let $main = $('#main');
 let $mainArticles = $main.children();
@@ -14,28 +15,29 @@ $(document).mouseup(function(e)
     {
         container.hide();
         $mainContainer.fadeIn();
+        $('footer').fadeIn();
     }
 });
 
 $($navLinks).on('click', function () {
     if($(this).text() === 'Work') {
-        $('#work').show("slow");
-        $('.main-container').slideUp();
+        $('#work').fadeIn();
+        $mainContainer.hide();
         $('footer').hide();
     }
     if($(this).text() === 'Skills') {
         $('#skills').show("slow");
-        $('.main-container').slideUp();
+        $('.main-container').hide();
         $('footer').hide();
     }
     if($(this).text() === 'About') {
-        $('#about').show("slow");
-        $('.main-container').slideUp();
+        $('#about').fadeIn();
+        $('.main-container').hide();
         $('footer').hide();
     }
     if($(this).text() === 'Contact') {
-        $('#contact').show("slow");
-        $('.main-container').slideUp();
+        $('#contact').fadeIn();
+        $('.main-container').hide();
         $('footer').hide();
     }
 });
