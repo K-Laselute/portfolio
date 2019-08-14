@@ -4,8 +4,6 @@ let $main = $('#main');
 let $mainArticles = $main.children();
 let $navLinks = $('nav li a');
 
-$mainArticles.hide();
-
 $(document).mouseup(function(e) 
 {
     var container = $($mainArticles);
@@ -21,21 +19,25 @@ $(document).mouseup(function(e)
 
 $($navLinks).on('click', function () {
     if($(this).text() === 'Work') {
+        $main.addClass('show');
         $('#work').fadeIn();
         $mainContainer.hide();
         $('footer').hide();
     }
     if($(this).text() === 'Skills') {
-        $('#skills').show("slow");
+        $main.addClass('show');
+        $('#skills').fadeIn();
         $('.main-container').hide();
         $('footer').hide();
     }
     if($(this).text() === 'About') {
+        $main.addClass('show');
         $('#about').fadeIn();
         $('.main-container').hide();
         $('footer').hide();
     }
     if($(this).text() === 'Contact') {
+        $main.addClass('show');
         $('#contact').fadeIn();
         $('.main-container').hide();
         $('footer').hide();
