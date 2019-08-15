@@ -8,13 +8,29 @@
 
 body {
     font-family: 'Roboto Condensed';
-    font-size: 1.5rem;
+    background: url(/assets/images/mountains.jpg) center center;
+    background-size: cover;
+    background-color: #1b1f22;
     color: white;
 }
 
+svg {
+    height: 100px;
+    width: 100px;
+}
+
+article {
+    padding: 4.5rem 2.5rem 1.5rem 2.5rem;
+    width: 60rem;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+h2 {
+    border-bottom: solid 2px white;
+}
+
 #wrapper {
-    background: url(../images/mountains.jpg);
-    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,13 +40,6 @@ body {
 
 .main-container {
     align-self: center;
-}
-
-article {
-    padding: 4.5rem 2.5rem 1.5rem 2.5rem;
-    width: 60rem;
-    max-width: 100%;
-    background-color: rgba(27, 31, 34, 0.85);
 }
 
 /* icons */
@@ -92,7 +101,6 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: .92rem;
     color: white;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -108,15 +116,6 @@ nav ul li a {
 
 
 /* contact */
-
-.fields {
-}
-
-.field-half {
-}
-
-.field {
-}
 
 input {
     background-color: transparent;
