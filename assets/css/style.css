@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Roboto Condensed';
+    font-family: 'Raleway', sans-serif;   
     background: url(/assets/images/mountainsdarken.png) center center;
 
 /* parallax scrolling effect */
@@ -27,14 +27,18 @@ svg {
 
 article {
     padding: 4.5rem 2.5rem 1.5rem 2.5rem;
-    width: 60rem;
+    width: 40rem;
     max-width: 100%;
     background-color: rgba(27, 31, 34, 0.85);
 }
 
 h2 {
-    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
     border-bottom: solid 2px white;
+    margin: 0 0 32px 0;
+    padding: 0 0 8px 0;
+    width: max-content;
 }
 
 #wrapper {
@@ -98,7 +102,7 @@ header {
     border-top: solid 2px white;
     border-bottom: solid 2px white;
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 9px;
     text-transform: uppercase;
 }
 
@@ -107,6 +111,7 @@ header {
 }
 
 h1 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 3em;
 }
 
@@ -168,4 +173,52 @@ input {
 #footer {
     margin-top: 50px;
     align-self: center;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1680px) {
+
+    body {
+        font-size: 12px;
+    }
+
+    #wrapper {
+        padding: 3rem 2rem;
+    }
+
+    nav li {
+        height: 3rem;
+        width: 8rem;
+    }
+
+    nav a {
+        padding-top: 16px;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+    body {
+        font-size: 11px;
+    }
+
+    #wrapper {
+        padding: 2rem 1rem;
+    }
+    #main article {
+        padding: 3.5rem 2rem 0.5rem 2rem ;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    #wrapper {
+        padding: 1rem;
+    }
+
+    #main article {
+        padding: 3rem 1.5rem 0.5rem 1.5rem ;
+    }
 }
