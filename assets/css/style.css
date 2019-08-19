@@ -19,6 +19,7 @@ body {
     color: white;
 }
 
+
 svg {
     height: 100px;
     width: 100px;
@@ -28,7 +29,7 @@ article {
     padding: 4.5rem 2.5rem 1.5rem 2.5rem;
     width: 60rem;
     max-width: 100%;
-    background-color: rgba(255, 255, 255, 0.10);
+    background-color: rgba(27, 31, 34, 0.85);
 }
 
 h2 {
@@ -45,7 +46,7 @@ h2 {
 }
 
 .main-container {
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 /* icons */
@@ -63,6 +64,16 @@ h2 {
 }
 
 /* header */
+.icon {
+    border: solid 2px white;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.icon img {
+    height: 55px;
+    width: 55px;
+}
 
 .vl-t {
     border-left: 2px solid white;
@@ -95,33 +106,45 @@ header {
     font-size: 1.3em;
 }
 
-#name {
+h1 {
     font-size: 3em;
 }
 
 nav ul {
     display: flex;
     justify-content: center;
-    border: solid 1px white;
 }
 
-nav ul li {
+nav li {
     border: 1px solid white;
     height: 4rem;
     width: 10rem;
-    padding-top: 20px;
     text-align: center;
 }
 
-nav ul li a {
+nav li:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+nav li:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+nav a {
     display: inline-block;
     width: 100%;
     height: 100%;
+    padding-top: 20px;
     color: white;
     text-transform: uppercase;
     font-size: 1.2em;
     letter-spacing: 3px;
 }
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+}
+
 
 /* work */
 
