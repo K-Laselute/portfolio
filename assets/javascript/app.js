@@ -4,6 +4,11 @@ let $main = $('#main');
 let $mainArticles = $main.children();
 let $navLinks = $('nav li a');
 
+// fade in content
+document.addEventListener("DOMContentLoaded", function (e) {
+    document.body.className = 'fade';
+});
+
 $(document).mouseup(function(e) 
 {
     var container = $($mainArticles);
