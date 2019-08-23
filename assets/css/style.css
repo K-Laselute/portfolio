@@ -164,8 +164,16 @@ a:hover {
 
 /* skills */
 
+.tech-icons {
+    padding: 15px;
+}
+
 .tech-icons svg {
     margin: 10px 10px;
+}
+
+h3 {
+    font-size: 2em;
 }
 
 /* About */
