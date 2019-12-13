@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;   
-    background: url(./assets/images/mountainsdarken.png) center center;
+    /* background: url(/assets/images/desert.jpg) center center; */
 
 /* parallax scrolling effect */
     background-attachment: fixed;
@@ -53,6 +53,7 @@ h2 {
 }
 
 #wrapper {
+    background: url(../images/desert.jpg) center center;
     display: flex;
     flex-direction: column;
     justify-content: center;
