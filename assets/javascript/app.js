@@ -3,10 +3,17 @@ let $mainContainer = $('.main-container');
 let $main = $('#main');
 let $mainArticles = $main.children();
 let $navLinks = $('nav li a');
+let $close = $('.close');
 
 // fade in content
 document.addEventListener("DOMContentLoaded", function (e) {
     document.body.className = 'fade';
+});
+
+$($close).on('click', function () {
+    $mainArticles.hide();
+    $mainContainer.fadeIn();
+    $('footer').fadeIn();
 });
 
 $(document).mouseup(function(e) 
